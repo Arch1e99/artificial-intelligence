@@ -1,0 +1,11 @@
+[project]
+name = "lab1-bfs-dfs"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = ["matplotlib"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
